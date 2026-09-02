@@ -94,6 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '.experience-column .timeline-item',
         '.skills-section .skill-tag',
         '.projects-section .project-card',
+        '.products-section .product-card',
         '.blog-section .blog-card',
         '.contact-section .contact-item, .contact-section .contact-card'
     ];
@@ -110,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const animatableElements = document.querySelectorAll(
-        '.service-card, .timeline-item, .skill-tag, .project-card, .blog-card, .contact-item, .contact-card'
+        '.service-card, .timeline-item, .skill-tag, .project-card, .product-card, .blog-card, .contact-item, .contact-card'
     );
 
     // Add animation class handler
